@@ -17,9 +17,14 @@ const HowSection = () => {
             className=""
           >
             <img
+              src="/assets/images/ceo-sm.png"
+              alt="Wright Choice VA Team"
+              className="object-contain max-w-full max-h-full lg:hidden"
+            />
+            <img
               src="/assets/images/ceo.png"
               alt="Wright Choice VA Team"
-              className="object-contain max-w-full max-h-full"
+              className="object-contain max-w-full max-h-full hidden lg:block"
             />
           </motion.div>
 

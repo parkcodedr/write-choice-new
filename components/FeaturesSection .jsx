@@ -44,7 +44,7 @@ const FeaturesSection = () => {
             <ul className="space-y-6 text-lg">
               <li>
                 <h4 className="font-semibold text-gray-800">
-                  {`Bogged Down by Routine task?`}
+                  {`Bogged Down by Routine tasks?`}
                 </h4>
                 <p className="text-gray-600">
                   {`Endless administrative work can eat up your time, leaving you

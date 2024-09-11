@@ -120,9 +120,9 @@ const HeroSection = () => {
             Wright Choice VA: Your Key to Unlocking Business Growth
           </h1>
           <p className="mb-5 text-xl text-center">
-            Are you a hands-on business owner in the service industry looking to
+            {`Are you a hands-on business owner in the service industry looking to
             elevate your success? Say Goodbye to Overwhelm and Hello to Growth
-            with Our Expert VA.
+            with Our Expert VA’s.`}
           </p>
          
           <VideoPlayer

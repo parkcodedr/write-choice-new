@@ -15,7 +15,6 @@ const PricingSection = () => {
         `Email management: Sorting, prioritizing, responding, and delegating emails.`,
         `Calendar management: Scheduling appointments, meetings, and reminders.`,
         `Admin and Data entry: Supporting smooth daily operation including document management.`,
-        `Task Management: Our expert virtual assistants handle task management with precision and efficiency, ensuring nothing slips through the cracks. From scheduling to project coordination, we take care of the details, so you don’t have to.`,
       ],
       buttonText: "Let's Talk",
     },
@@ -26,7 +25,7 @@ const PricingSection = () => {
       features: [
         "Project management: Coordinating and overseeing projects from start to finish.",
         `Customer support: Responding to customer inquiries and resolving issues`,
-        "Travel arrangements: Booking flights, hotels, and transportation.",
+        "Task Management: Our expert virtual assistants handle task management with precision and efficiency, ensuring nothing slips through the cracks. From scheduling to project coordination, we take care of the details, so you don’t have to.",
       ],
       buttonText: "Let's Talk",
     },
@@ -37,8 +36,8 @@ const PricingSection = () => {
       features: [
         `Lead generation: Identifying and researching your target market to collate names, email address and connected social profiles.`,
         `Marketing automation: Setting up and managing personalised, highly engaging email sequences`,
-        `Social media management: We Will integrate with your social platforms engaging with your network, sending connection request to your target audience and responding to messages`,
-        `Omni Marketing: We integrate with LinkedIn and Instagram to engage your audience, send connection request and highly personalised engaging messages to identify opportunities.`,
+
+        `Omni Marketing: We integrate with social platforms like LinkedIn and Instagram engaging with your audience on your behalf. We send connection requests to your target audience and personalised, highly engaging messages to create opportunities`,
       ],
       buttonText: "Let's Talk",
     },

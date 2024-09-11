@@ -29,10 +29,10 @@ const PricingCard = ({
         {hours}
       </p>
       {title == "VA Power" ? (
-        <p className="text-base mb-2">All VA Lite services</p>
+        <p className="text-base mb-2">All VA Lite services plus</p>
       ) : null}
       {title == "VA Superstar" ? (
-        <p className="text-base mb-2">All VA Power services</p>
+        <p className="text-base mb-2">All VA Power services plus</p>
       ) : null}
       <ul className="mb-20 space-y-4">
         {features.map((feature, index) => (
@@ -49,7 +49,7 @@ const PricingCard = ({
       </ul>
 
       <div className="flex justify-center">
-        <button className="bg-primary text-white py-2 px-16 absolute bottom-8 rounded-3xl">
+        <button className="bg-primary text-white py-3 px-16 absolute bottom-8 rounded-3xl">
           {buttonText}
         </button>
       </div>
