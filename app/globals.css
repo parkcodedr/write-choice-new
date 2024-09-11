@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.hero__bg {
+  background-image: url("/assets/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.how__bg {
+  background-image: url("/assets/images/services-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta__bg {
+  background-image: url("/assets/images/cta-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__bg {
+  background-image: url("/assets/images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  .hero__bg {
+    background-image: url("/assets/images/hero-bg-sm.png");
+  }
+
+  .how__bg {
+    background-image: url("/assets/images/services-bg-sm.png");
+  }
+
+  .cta__bg {
+    background-image: url("/assets/images/cta-bg-sm.png");
+  }
+
+  .footer__bg {
+    background-image: url("/assets/images/footer-bg-sm.png");
+  }
+}
