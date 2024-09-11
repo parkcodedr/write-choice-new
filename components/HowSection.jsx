@@ -36,7 +36,7 @@ const HowSection = () => {
             className=" text-white max-w-3xl"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#DE4B87]">
-              How Wright Choice VA Solves These Problems
+              How Wright Choice can Solve Your Problems
             </h2>
 
             <div className="space-y-8">
